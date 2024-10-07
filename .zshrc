@@ -108,6 +108,7 @@ alias lazygp="git push -u origin"
 export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 export PATH=/Users/cyberapocalypse/.local/bin:$PATH
 export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
+export PATH="/home/chek/.local/bin:$PATH"
 
 export PATH=$PATH:$HOME/go/bin
 

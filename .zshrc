@@ -121,3 +121,10 @@ unset __conda_setup
 eval "$(zoxide init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+zof() {
+  local dir
+  dir=$(zoxide query -l | fzf --height 40% --reverse --prompt="zoxide > ")
+  [ -n "$dir" ] && cd "$dir"
+}

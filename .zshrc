@@ -128,3 +128,5 @@ zof() {
   dir=$(zoxide query -l | fzf --height 40% --reverse --prompt="zoxide > ")
   [ -n "$dir" ] && cd "$dir"
 }
+
+alias sshp='ssh -o PreferredAuthentications=password'
